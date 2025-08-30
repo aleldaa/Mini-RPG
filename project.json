@@ -1,0 +1,51 @@
+{
+  "name": "Mini RPG Unity Project",
+  "version": "1.0.0",
+  "description": "A simple 2D RPG game built in Unity with basic RPG mechanics",
+  "unityVersion": "2022.3.0f1",
+  "keywords": [
+    "rpg",
+    "2d",
+    "unity",
+    "game",
+    "adventure",
+    "combat",
+    "inventory",
+    "quest"
+  ],
+  "author": "Unity Developer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/mini-rpg-unity.git"
+  },
+  "scripts": {
+    "build": "Unity -batchmode -quit -projectPath . -buildTarget StandaloneWindows64 -buildPath ./Builds/Game.exe",
+    "build-mac": "Unity -batchmode -quit -projectPath . -buildTarget StandaloneOSXUniversal64 -buildPath ./Builds/Game.app",
+    "build-linux": "Unity -batchmode -quit -projectPath . -buildTarget StandaloneLinux64 -buildPath ./Builds/Game.x86_64"
+  },
+  "dependencies": {
+    "unity": "2022.3.0f1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "unity": ">=2022.3.0f1"
+  },
+  "features": [
+    "Player Movement and Combat",
+    "Enemy AI and Spawning",
+    "Inventory System",
+    "Quest System",
+    "Health and Experience",
+    "Equipment System",
+    "Save/Load System",
+    "UI Management"
+  ],
+  "screenshots": [],
+  "videos": [],
+  "documentation": "SETUP_GUIDE.md",
+  "support": {
+    "issues": "https://github.com/yourusername/mini-rpg-unity/issues",
+    "wiki": "https://github.com/yourusername/mini-rpg-unity/wiki"
+  }
+}
